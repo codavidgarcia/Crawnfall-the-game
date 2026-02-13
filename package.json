@@ -1,0 +1,31 @@
+{
+  "name": "crownfall-kingdom-serpents",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Crownfall: Kingdom Serpents — Cross-platform PvP medieval strategy game",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w packages/game-web",
+    "build:web": "npm run build -w packages/game-web",
+    "preview:web": "npm run preview -w packages/game-web",
+    "build:core": "npm run build -w packages/game-core",
+    "mobile:sync": "npm run sync -w apps/mobile",
+    "mobile:android": "npm run android -w apps/mobile",
+    "mobile:ios": "npm run ios -w apps/mobile",
+    "mobile:build:android": "npm run build:android -w apps/mobile",
+    "mobile:build:ios": "npm run build:ios -w apps/mobile",
+    "dev:desktop": "npm run dev -w apps/desktop",
+    "build:desktop": "npm run build -w apps/desktop",
+    "package:desktop": "npm run package -w apps/desktop",
+    "typecheck": "tsc --build",
+    "clean": "rm -rf packages/*/dist apps/*/dist node_modules/.cache"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "license": "UNLICENSED"
+}

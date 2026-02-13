@@ -1,0 +1,29 @@
+node_modules/
+dist/
+out/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Platform generated
+apps/mobile/ios/
+apps/mobile/android/
+
+# Build caches
+.vite/
+.tsbuildinfo
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Agent / AI tooling
+.agent/
+.gemini/
+.vercel/
+
+# OS
+Thumbs.db
+.DS_Store

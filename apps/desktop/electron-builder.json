@@ -1,0 +1,30 @@
+{
+    "appId": "com.crownfall.kingdomserpents",
+    "productName": "Crownfall: Kingdom Serpents",
+    "directories": {
+        "output": "out"
+    },
+    "files": [
+        "dist/**/*"
+    ],
+    "extraResources": [
+        {
+            "from": "../../packages/game-web/dist",
+            "to": "app",
+            "filter": [
+                "**/*"
+            ]
+        }
+    ],
+    "mac": {
+        "category": "public.app-category.games",
+        "target": "dmg"
+    },
+    "win": {
+        "target": "nsis"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Game"
+    }
+}
