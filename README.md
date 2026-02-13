@@ -6,7 +6,7 @@
 
 <!-- PLAYABLE GAME LINK -->
 <!-- TODO: Replace with actual deployment URL -->
-**[▶ Play Crawnfall Now](https://your-deployment-url.com)**
+**[▶ Play Crawnfall Now](https://crawnfall.vercel.app/)**
 
 ---
 
